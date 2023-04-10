@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .leftside{
+    position: fixed;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+  }
+  .formside{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+  }
+  
+  .left-container {
+    background-image:
+    linear-gradient(60deg,
+    rgba(18, 74, 152, 0.7) 99%, rgba(15, 77, 171, 0) 99.11%), url('https://res.cloudinary.com/ddximhdei/image/upload/v1678797687/alumni-site-banner-image-2021-modified-for-web_qj5tlc.jpg');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: relative;
+    
+    height: 100%;
+  }
+
+
+  .right-container {
+    background-color: #ffffff;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18%;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+ 
+  

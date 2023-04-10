@@ -1,0 +1,12 @@
+.landing{
+    background-image:
+      linear-gradient(60deg,
+      rgba(18, 74, 152, 0.7) 99%, rgba(15, 77, 171, 0) 99.11%), url('https://res.cloudinary.com/ddximhdei/image/upload/v1678797687/alumni-site-banner-image-2021-modified-for-web_qj5tlc.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+      text-align: center;
+  }

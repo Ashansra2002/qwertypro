@@ -1,0 +1,20 @@
+.Header{
+    display: grid;
+    grid-template-areas: "logo nav";
+}
+.Nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    justify-items:center;
+}
+.Logo{
+    height: 100px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

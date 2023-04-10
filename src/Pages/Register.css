@@ -1,0 +1,157 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    
+  }
+
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .form-group input[type="radio"],
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+    
+  }
+  
+  .radio-group {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .checkbox-group label {
+    margin-right: 20px;
+  }
+  
+  .form-group button[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  
+  .registration-container{
+    display: flex;
+  }
+  
+  .lefts-container {
+    background-image:
+    linear-gradient(60deg,
+    rgba(18, 74, 152, 0.7) 99%, rgba(15, 77, 171, 0) 99.11%), url('https://res.cloudinary.com/ddximhdei/image/upload/v1678797687/alumni-site-banner-image-2021-modified-for-web_qj5tlc.jpg');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: relative;
+    
+    height: 100%;
+  }
+  .slogan{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+
+  .slogans{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    padding-top: 20%;
+  }
+  
+  .photos2 {
+    z-index: 5;
+    height: 100px;
+    width: 200px;
+    flex-direction: column;
+    pointer-events: none;
+    position: absolute;
+    left: 2px;
+    margin-top: 36%;
+  
+  }
+  
+  .photos3 {
+    z-index: 10;
+    height: 150px;
+    width: 300px;
+    margin-top: 28%;
+    flex-direction: column;
+    pointer-events: none;
+    position: absolute;
+    left: 170px;
+  
+  }
+  
+  .photos4 {
+    z-index: 5;
+    height: 100px;
+    width: 200px;
+    right: 0px;
+    margin-top: 36%;
+    flex-direction: column;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  
+  .forms-container{
+    background-color: #ffffff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .leftsside{
+    position: fixed;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+  }
+  .formsside{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+  }
